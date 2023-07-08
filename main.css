@@ -1,0 +1,38 @@
+.photo {
+  text-align: center;
+}
+
+.photo img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: darkslateblue;
+}
+
+.links {
+  width: 300px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.links a {
+  color: darkslateblue;
+  text-decoration: none;
+}
+
+.links li {
+  margin: 4px 0;
+}
+
+.links a img {
+  vertical-align: middle;
+}
+
+.links a span {
+  vertical-align: middle;
+}
