@@ -3,10 +3,11 @@ body {
   padding: 0;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 16px;
+  background-color: ghostwhite;
 }
 
 main {
-  padding: 12px 0;
+  padding: 20px 0;
 }
 
 .photo {
@@ -22,27 +23,33 @@ main {
 h1 {
   text-align: center;
   font-size: 28px;
-  color: indigo;
+  margin: 20px 0;
+  color: darkolivegreen;
 }
 
 .links {
   width: 300px;
   margin: 0 auto;
   list-style: none;
+  font-size: 18px;
 }
 
 .links a {
-  color: darkslateblue;
+  color: steelblue;
   text-decoration: none;
 }
 
 .links li {
-  margin: 4px 0;
+  margin: 8px 0;
 }
 
-.links a img {
+.links a svg {
   vertical-align: middle;
   margin-right: 2px;
+  width: 20px;
+  height: 20px;
+  fill: dimgray;
+  color: dimgray;
 }
 
 .links a span {
